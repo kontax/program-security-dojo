@@ -1,6 +1,6 @@
 id: program-security
 name: Program Security
-image: pwncollege/challenge-legacy:latest
+image: couldinho/challenge-legacy:latest
 
 award:
   belt: yellow
@@ -15,7 +15,7 @@ description: |
 type: topic
 
 modules:
-- id: shellcode-injection
-- id: reverse-engineering
-- id: memory-errors
-- id: program-exploitation
+  - id: shellcode-injection
+  - id: reverse-engineering
+  - id: memory-errors
+  - id: program-exploitation
